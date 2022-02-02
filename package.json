@@ -1,0 +1,29 @@
+{
+  "name": "btc-terminal-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sina-yeganeh/btc-terminal-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sina-yeganeh/btc-terminal-tracker/issues"
+  },
+  "homepage": "https://github.com/sina-yeganeh/btc-terminal-tracker#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.10.1",
+    "cheerio": "^1.0.0-rc.10",
+    "colors": "^1.4.0",
+    "crypto-price": "^0.0.6",
+    "network-speed": "^2.1.1",
+    "node-notifier": "^10.0.1"
+  }
+}
