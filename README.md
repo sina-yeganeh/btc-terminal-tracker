@@ -3,9 +3,9 @@
 <img src="./assets/logo.png" align="right"
      alt="Bitcoin Logo" width="150" height="150">
 
-**Bitcoin terminal tracker** is a terminal app which allow to you to track bitcoin price from your terminal. In this version (`V1.2`) I changed her name to **OXTracker** 😄, this terminal app (maybe `tool`) have all of these feature:
+**Bitcoin terminal tracker** is a terminal app which allow you to track bitcoin price from your terminal. In this version (`V1.2`) I changed its name to **OXTracker** 😄, this terminal app (maybe `tool`) have all of these features:
 
-- **`Bitcoin` Price Chart** - this chart changed his `base-color` to `green` or `red` when bitcoin price increase or decrease.
+- **`Bitcoin` Price Chart** - this chart changed its `base-color` to `green` or `red` when bitcoin price increase or decrease.
 - **Alert system** - notice you when bitcoin price changed or get error in `getCryptoPrice` process.
 - **`Bitcoin` Logger** - print `bitcoinPrice` and how many it changed.
 - **Network Speed** - check your network speed and log it in `networkSpeed` window(box).
