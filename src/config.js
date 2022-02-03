@@ -14,8 +14,8 @@ module.exports = {
     },
     label: "Line Chart Prices (USD)",
     showLegend: true,
-    minY: 38000,
-    maxY: 38500,
+    minY: 39000,
+    maxY: 35000,
     draggable: true
   },
   log: {
