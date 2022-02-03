@@ -70,7 +70,7 @@ setInterval(async () => {
   networkLogger.log(colors.bold.italic(" network speed: ".blue + networkSpeed.kbps));
 }, 5000);
 
-const bitcoinPrices = [];
+var bitcoinPrices = [];
 var lastPrice = 0;
 var lastPriceExact = 0;
 var hours = [];
@@ -93,9 +93,6 @@ setInterval(() => {
     .then(btc => {
       lastPriceExact = btc.price;
       var btcPrice = Math.floor(lastPriceExact);
-
-      config.line.maxY = btcPrice + 100;
-      config.line.minY = btcPrice - 100;
 
       if (btcPrice != lastPrice) {
         var dif = btcPrice - lastPrice;
